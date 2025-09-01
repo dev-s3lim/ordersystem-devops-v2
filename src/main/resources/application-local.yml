@@ -3,13 +3,13 @@ server:
 
 spring:
   redis:
-    host: localhost
+    host: xxxx
     port: 6379
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://몰라도 돼~:3306/ordersystem
-    username: xxxxxxxx
-    password: xxxxxxxx
+    url: jdbc:mariadb://xxxx:3306/ordersystem
+    username: xxxx
+    password: yyyy
   jpa:
     database: mysql
     database-platform: org.hibernate.dialect.MariaDBDialect
@@ -25,12 +25,12 @@ spring:
 cloud:
   aws:
     credentials:
-      access-key: xxxxxxxx
-      secret-key: xxxxxxxx
+      access-key: xx
+      secret-key: yy
     region:
       static: ap-northeast-2
     s3:
-      bucket: xxxxxxxx
+      bucket: xx
 
 
 jwt:
