@@ -35,7 +35,7 @@ cloud:
 
 jwt:
   expirationAt: 1000
-  secretKeyAt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  secretKeyAt: l6zqGfR7VhQy2dUjP7+9sB6qT1o8fW3uZrNcYyKj8s0v1nLw==
   expirationRt: 10000
-  secretKeyRt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  secretKeyRt: F8k1hXo0N2r8vQm9bU4pZxCj5aV7dYqT6eW2fHj1sL9oM0nQ==
 
