@@ -1,0 +1,44 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  redis:
+    host: 몰라도 돼~
+    port: 6379
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://몰라도 돼~.ap-northeast-2.rds.amazonaws.com/ordersystem
+    username: 몰라도 돼~
+    password: 몰라도 돼~
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    show_sql: true
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+cloud:
+  aws:
+    credentials:
+      access-key: 몰라도 돼~
+      secret-key: 몰라도 돼~
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: 몰라도 돼~
+
+
+jwt:
+  expirationAt: 1000
+  secretKeyAt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+  expirationRt: 10000
+  secretKeyRt: YmV5b25kYWNjZXNzdG9rZW5zZWNyZXRrZXliZXlvbmRhY2Nlc3N0b2tlbnNlY3JldGtleWJleW9uZGFjY2Vzc3Rva2Vuc2VjcmV0a2V5
+
